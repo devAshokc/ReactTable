@@ -1,0 +1,16 @@
+.navbar {
+    background-color: rgb(37, 43, 37) !important;
+    color: aliceblue;
+  }
+  .intro-container {
+    position: relative;
+    margin-left: 10%;
+    margin-right: 15%;
+    margin-top: 2.5%;
+    margin-bottom: 5%;
+  }
+  .logo-F{
+    color: #10cdc0;
+  }
+  
+ 
