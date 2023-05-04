@@ -18,7 +18,6 @@ export const BasicTable = () => {
     headerGroups,
     rows,
     prepareRow,
-    footerGroups,
   } = useTable({
     columns,
     data,
@@ -84,15 +83,6 @@ export const BasicTable = () => {
           );
         })}
       </tbody>
-      <tfoot>
-        {footerGroups.map((footerGruop) => {
-          return <tr {...footerGruop.getFooterGroupProps()}>
-            {footerGruop.headers.map((column) => (
-              <td {...column.getFooterProps}>{column.render("Footer")}</td>
-            ))}
-          </tr>;
-        })}
-      </tfoot>
     </table>
     </>
   );

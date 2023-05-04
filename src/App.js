@@ -12,9 +12,9 @@ function App() {
       <div className="routes-container">
         <Routes>
           <Route path="/" element={<Home/>} />
+          <Route path="/Table/SortingTable" element={<SortingTable />} />
           <Route path="/Table/Filtering" element={<FilteringTable />} />
           <Route path="/Table/PaginationTable" element={<PaginationTable />} />
-          <Route path="/Table/SortingTable" element={<SortingTable />} />
         </Routes>
       </div>
     </div>
